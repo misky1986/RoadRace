@@ -1,0 +1,32 @@
+{
+  "name": "roadrace",
+  "version": "1.0.0",
+  "description": "A cycle competion app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misky1986/RoadRace.git"
+  },
+  "keywords": [
+    "Hobby",
+    "project"
+  ],
+  "author": "misky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misky1986/RoadRace/issues"
+  },
+  "homepage": "https://github.com/misky1986/RoadRace#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "mongoose": "^4.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.1.0"
+  }
+}

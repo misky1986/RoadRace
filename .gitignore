@@ -20,6 +20,9 @@ coverage
 # node-waf configuration
 .lock-wscript
 
+# Github rate limit (request per hpur) 
+.tsdrc
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
@@ -31,3 +34,6 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Definition files
+typings
