@@ -8,6 +8,7 @@ var should = require('should'),
 
 describe('Book Crud Test', function () {
     it('should allow a book to be posted and return a read and _id', function (done) {
+
         var racePost = {title: 'New Rider', rider: 'Rider123', ryderType: 'Crazy one'};
 
         agent.post('/api/races')
@@ -21,6 +22,7 @@ describe('Book Crud Test', function () {
 
     });
 
+    // Cleanup after test
     afterEach(function (done) {
         Race.remove().exec();
         done();
